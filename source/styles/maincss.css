@@ -1,0 +1,308 @@
+h1 {
+    font-size: 35px;
+}
+
+body {
+    color-scheme: only light;
+    background: #4444a6;
+    font: 400 18px/28px sans-serif;
+    color: bisque;
+}
+
+.headbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    padding: 5px 50px;
+    gap: 100px;
+    background: #3e3e3f;
+    align-items: center;
+}
+
+.headbar a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.headbar a:hover {
+    background: #EFEFF2;
+    color: #212194;
+}
+
+.headbar .acivepage {
+    color: rgb(96, 96, 250);
+}
+
+.menubar {
+    display: flex;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    border: 4px solid #EFEFF2;
+}
+
+
+
+.maininfo,
+.chapter_films {
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+
+.mainphoto img {
+    height: 500px;
+    border: 4px solid #15159f;
+}
+
+.biogr {
+    background: #272775;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 800px;
+    border: 4px solid #15159f;
+}
+
+.table,
+td,
+th {
+    border: 4px solid #15159f;
+    padding: 4px;
+    text-align: center;
+}
+
+.headtable {
+    text-decoration: underline;
+}
+
+.headtable,
+.tablefilms td {
+    background: #272775;
+}
+
+.evst,
+.datelife {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datelife {
+    margin-top: 10px;
+}
+
+.awards li {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.genre,
+.theatres {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.biotext {
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.biotext a {
+    color: rgb(190, 122, 33);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.photoactor {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.photoactor img {
+    height: 400px;
+    max-width: 400px;
+    object-fit: cover;
+    border: 4px solid #15159f;
+}
+
+.photogallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    text-align: center;
+}
+
+.photoandtext img {
+    height: 400px;
+    max-width: 500px;
+    object-fit: cover;
+    border: 4px solid #15159f;
+}
+
+.photoandtext p {
+    margin: 2px;
+}
+
+
+.linkssours {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 0;
+    gap: 10px;
+}
+
+.linkssours a {
+    color: rgb(190, 122, 33);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.linkssours p {    
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+.formabout {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}
+
+.formforuser {
+    display: flex;
+    flex-direction: column;
+    background: #272775;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.nameformfeedb p {
+    margin: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.contactusertext {
+    font-size: 18px;
+    color: #272775;
+}
+
+.formfeedback {
+    height: 50px;
+    width: 600px;
+    font-size: 18px;
+    color: #272775;
+}
+
+.questionuser {
+    display: flex;
+    flex-direction: column;
+}
+
+.askuserselect {
+    width: 600px;
+    font-size: 18px;
+    color: #272775;
+}
+
+.subscrbutton {
+    background: #3e3e3f;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+.subscrbutton:hover {
+    background: bisque;
+    color: #212194;
+}
+
+.aboutauthor {
+    display: flex;
+    flex-direction: column;
+    background: #272775;
+    align-items: center;
+    text-align: center;
+}
+
+.develsite {
+    margin: 0;
+    padding: 30px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.formfooter {
+    display: flex;
+    flex-direction: column;
+    background: #3e3e3f;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footerinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+    gap: 130px;
+}
+
+.footerinfo a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.aboutsite,
+.contactauthor,
+.menufoot,
+.policy {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragr_footer {
+    font-size: 22px;
+    color: bisque;
+    border-bottom: 4px solid bisque;
+}
+
+.aboutsite {
+    align-items: center;
+    text-align: center;
+}
+
+.logofooter {
+    display: flex;
+}
+
+.logofooter img {
+    border: 4px solid #EFEFF2;
+}
+
+.policy p {
+    margin-top: 0;
+}
