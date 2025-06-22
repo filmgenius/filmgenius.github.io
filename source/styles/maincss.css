@@ -216,14 +216,14 @@ th {
 
 .contactusertext {
     font-size: 18px;
-    color: #272775;
+    color: rgb(190, 122, 33);
 }
 
 .formfeedback {
     height: 50px;
     width: 600px;
     font-size: 18px;
-    color: #272775;
+    color: rgb(190, 122, 33);
 }
 
 .questionuser {
@@ -234,7 +234,7 @@ th {
 .askuserselect {
     width: 600px;
     font-size: 18px;
-    color: #272775;
+    color: rgb(190, 122, 33);
 }
 
 .subscrbutton {
