@@ -19,6 +19,14 @@ body {
     align-items: center;
 }
 
+.logoheader {
+    display: flex;
+}
+
+.logoheader img {
+    object-fit: cover;
+}
+
 .headbar a {
     color: burlywood;
     text-decoration: none;
@@ -36,14 +44,23 @@ body {
 
 .menubar {
     display: flex;
-    gap: 100px;
+    gap: 80px;
 }
 
 .logo {
+    height: 68px;
+    max-width: 200px;
     display: flex;
     border: 4px solid #EFEFF2;
 }
 
+.logomiddle {
+    height: 68px;
+    max-width: 200px;
+    display: flex;
+    border-top: 4px solid #EFEFF2;
+    border-bottom: 4px solid #EFEFF2;
+}
 
 
 .maininfo,
@@ -170,9 +187,9 @@ th {
     font-weight: 600;
 }
 
-.linkssours p {    
+.linkssours p {
     margin-top: 0;
-    margin-bottom: 0;    
+    margin-bottom: 0;
 }
 
 .formabout {
